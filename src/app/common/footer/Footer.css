@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--brand-color);
+  color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+footer > .container {
+  flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links > * {
+  flex: 1;
+}
+
+.footer__heading {
+  margin-bottom: .5em;
+}
+
+.terms-links {
+  margin-bottom: 1rem;
+}
+
+.terms-links a {
+  margin: 0 .5em;
+}
+

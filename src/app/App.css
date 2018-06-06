@@ -1,0 +1,19 @@
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.block {
+  border: 1px solid #eee;
+}
+
+.block__header {
+  border-bottom: 1px solid #eee;
+  padding: .5rem;
+  display: block;
+}

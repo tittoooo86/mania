@@ -1,0 +1,8 @@
+
+.ctaButtons > * {
+  flex: 1;
+}
+
+.fas {
+  margin-right: 1em;
+}

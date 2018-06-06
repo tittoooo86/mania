@@ -1,0 +1,17 @@
+.featured {
+  flex: 2;
+  display: flex;
+  padding: 1rem;
+  margin-right: 1.5rem;
+}
+
+.featured__image {
+  background-color: #ccc;
+  flex: 1;
+}
+
+
+.featured__description {
+  padding: 0 1rem;
+  flex: 1;
+}
