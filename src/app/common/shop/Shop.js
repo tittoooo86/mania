@@ -10,7 +10,7 @@ const Shop = () => {
           <a href="#" className="product__image">
             <img src="" alt=""/>
           </a>
-          <a href="#" className="product__title">Lovely sculpting powder</a>
+          <a href="#" className="product-title">Lovely sculpting powder</a>
           <div className="product__rating">
             <i className="far fa-star"></i>
             <i className="far fa-star"></i>
@@ -30,7 +30,7 @@ const Shop = () => {
           <a href="#" className="product__image">
             <img src="" alt=""/>
           </a>
-          <a href="#" className="product__title">Lovely sculpting powder</a>
+          <a href="#" className="product-title">Lovely sculpting powder</a>
           <div className="product__rating">
             <i className="far fa-star"></i>
             <i className="far fa-star"></i>
@@ -50,7 +50,7 @@ const Shop = () => {
           <a href="#" className="product__image">
             <img src="" alt=""/>
           </a>
-          <a href="#" className="product__title">Lovely sculpting powder</a>
+          <a href="#" className="product-title">Lovely sculpting powder</a>
           <div className="product__rating">
             <i className="far fa-star"></i>
             <i className="far fa-star"></i>

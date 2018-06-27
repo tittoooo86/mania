@@ -6,11 +6,14 @@ const Review = (props) => {
   return (
     <div className="review">
       <a href="#" className="review__image">
-        <img src="" alt=""/>
+        <img src="http://via.placeholder.com/120x120" alt="Product photo"/>
       </a>
-      <a href="#" className="review__title">Lovely sculpting powder</a>
+      <a href="#" className="product-title">Lovely sculpting powder</a>
       <Rating />
-      <p className="review__description">Nebelin: Kezdő szettnek jó. A bronzosító alig lâtszik és pár óra után le is kopik. 4-5 alkalommal át kell...</p>
+      <p className="review__description">
+        <span>{props.user}: </span>
+        {props.reviewText}
+      </p>
     </div>
   );
 };

@@ -1,4 +1,12 @@
 .advert {
-  flex: 1;
-  background-color: #ccc;
+}
+
+.advert__title {
+  margin: 0 0 .5em;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.advert__image {
+  width: 100%;
 }

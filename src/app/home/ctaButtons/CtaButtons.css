@@ -1,8 +1,13 @@
+.ctaButtons {
+  grid-column: span 3;
+  display: flex;
+  justify-content: space-between;
+}
 
 .ctaButtons > * {
   flex: 1;
 }
 
-.fas {
+.ctaButtons .fas {
   margin-right: 1em;
 }

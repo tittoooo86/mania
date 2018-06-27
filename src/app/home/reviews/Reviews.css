@@ -1,0 +1,15 @@
+.reviews {
+  grid-column: span 3;
+}
+
+.reviews-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1010px) {
+  .reviews-inner {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

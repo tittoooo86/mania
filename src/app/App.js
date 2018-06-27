@@ -20,7 +20,7 @@ const App = () => {
           <Route component={NotFound} />
         </Switch>
         <Footer />
-        </React.Fragment>
+      </React.Fragment>
     </BrowserRouter>
   );
 }

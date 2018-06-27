@@ -1,17 +1,25 @@
 .featured {
-  flex: 2;
-  display: flex;
-  padding: 1rem;
-  margin-right: 1.5rem;
+  grid-column: span 2;
+  padding: 12px;
 }
 
 .featured__image {
-  background-color: #ccc;
-  flex: 1;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+  width: 50%;
 }
 
+.featured__description p {
+  font-size: 13px;
+  color: var(--grey);
+}
 
-.featured__description {
-  padding: 0 1rem;
-  flex: 1;
+.read-more-link {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.read-more-link i {
+  margin-left: .5em;
 }

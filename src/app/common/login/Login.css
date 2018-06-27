@@ -1,0 +1,17 @@
+.header__login > * {
+  margin: 0 .5em;
+}
+
+.login-link {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.header__login > .icon-facebook {
+  color: #3b5998;
+}
+
+.header__login > .icon-google {
+  color: #d34836;
+}

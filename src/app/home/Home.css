@@ -1,4 +1,14 @@
-.reviews {
-  display: flex;
-  flex-wrap: wrap;
+.grid-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+@media screen and (min-width: 1010px) {
+  .grid-container {
+    padding: 0;
+  }
 }
